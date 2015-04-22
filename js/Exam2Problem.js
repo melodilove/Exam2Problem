@@ -15,6 +15,7 @@ function MenuChoice()
         document.getElementById("cat_desc").style.visibility = "hidden";
         document.getElementById("del_cat").style.visibility = "hidden";
         document.getElementById("about").style.visibility = "hidden";
+        document.getElementById("categorydisplay").innerHTML = "";
     }
     else if (document.getElementById("menu").value == "Update Category Description")
     {
@@ -23,6 +24,7 @@ function MenuChoice()
         document.getElementById("cat_desc").style.visibility = "visible";
         document.getElementById("del_cat").style.visibility = "hidden";
         document.getElementById("about").style.visibility = "hidden";
+        document.getElementById("categorydisplay").innerHTML = "";
     }
     else if (document.getElementById("menu").value == "Delete Category")
     {
@@ -31,6 +33,7 @@ function MenuChoice()
         document.getElementById("cat_desc").style.visibility = "hidden";
         document.getElementById("del_cat").style.visibility = "visible";
         document.getElementById("about").style.visibility = "hidden";
+        document.getElementById("categorydisplay").innerHTML = "";
     }
     else if (document.getElementById("menu").value == "About the Developer")
     {
@@ -39,6 +42,7 @@ function MenuChoice()
         document.getElementById("cat_desc").style.visibility = "hidden";
         document.getElementById("del_cat").style.visibility = "hidden";
         document.getElementById("about").style.visibility = "visible";
+        document.getElementById("categorydisplay").innerHTML = "";
     }
     else
     {
@@ -47,6 +51,7 @@ function MenuChoice()
         document.getElementById("cat_desc").style.visibility = "hidden";
         document.getElementById("del_cat").style.visibility = "hidden";
         document.getElementById("about").style.visibility = "hidden";
+        document.getElementById("categorydisplay").innerHTML = "";
     }
 }
 
