@@ -1,3 +1,8 @@
+#cat_list {background-color: #D4CBC3; color: #000000; visibility: hidden; width:98%; padding: 5px;}
+#add_cat {background-color: #F69A98; position: absolute; top: 106px; visibility: hidden; width: 570px; color: #000000; padding: 5px;}
+#cat_desc {background-color: #C8AB65; position: absolute; top: 106px; visibility: hidden; width:570px; color: #000000; padding: 5px;}
+#del_cat {background-color: #D4CBC3; position: absolute; top: 106px; color: #000000; visibility: hidden; width: 570px; padding: 5px;}
+#about {background-color: #C0C0C0; position: absolute; top: 106px; visibility: hidden; width:570px; color: #000000; padding: 5px;}
 
 #content_area {max-width: 580px;}
 header {background-color: #9FBF8C; width:100%; border-bottom: 3px solid #787A40; margin-bottom: 5px; color: #787A40; text-align: center;}
