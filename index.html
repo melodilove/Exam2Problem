@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Exam 2 Problem</title>
+    <link rel="stylesheet" type="text/css" href="styles/Exam2Problem.css"/>
+    <script src="js/Exam2Problem.js"></script>
+    
+</head>
+
+<body>
+    <div id="content_area">
+        <header>
+            <h1>Exam 2 Problem</h1>
+        </header>
+        
+        <select onchange="MenuChoice()" id="menu">
+            <option>Please choose an option to display.</option>
+            <option>View Categories</option>
+            <option>Create Category</option>
+            <option>Update Category Description</option>
+            <option>Delete Category</option>
+            <option>About the Developer</option>
+        </select>
+        
+        <section id="cat_list">
+            <label>Click the button below to display Product Categories.</label>
+            <br>
+            <button onclick="GetCategories()" id="listcategories">View Categories</button>
+            <br>
+            <hr>
+            <label id="categorydisplay">The table of categories will be displayed here.</label>            
+        </section>
+        
+        <section id="add_cat">
+            <label>Please enter a Category Name:</label>
+            <input type="text" id="catname">
+            <br>
+            <br>
+            <label>Please enter the Category Description:</label>
+            <input type="text" id="catdesc">
+            <br>
+            <br>
+            <button onclick="CreateCategory()" id="newcategory">Add a New Category</button>
+            <br>
+            <hr>
+            <label id="newcatdisplay">The result of your request will be displayed here.</label>    
+        </section>
+        
+        <section id="cat_desc">
+            <label>Please enter the Category ID:</label>
+            <input type="integer" id="category_id">
+            <br>
+            <br>
+            <label>Please enter the new category description:</label>
+            <input type="text" id="category_description">
+            <br>
+            <br>
+            <button onclick="UpdateCategory()" id="address">Update Category Description</button>
+            <br>
+            <hr>
+            <label id="result">The result of your request will be displayed here.</label>
+        </section>
+        
+        <section id="del_cat">
+            <label>Please enter the Category ID:</label>
+            <input type="integer" id="category_ID">
+            <br>
+            <br>
+            <button onclick="ConfirmDelete()" id="delete">Delete Category</button>
+            <br>
+            <hr>
+            <label id="delresult">The result of your request will be displayed here.</label> 
+        </section>
+        
+        <section id="about">
+            <div id="name">
+                <h2>Melodi Love</h2>
+                <p>Senior Developer/Project Manager</p>
+                <p><a href="http://www.indigmar.com">Indigimar, Inc</a></p>
+            </div>
+        </section>
+        
+    </div>
+
+    
+
+</body>
+</html>
