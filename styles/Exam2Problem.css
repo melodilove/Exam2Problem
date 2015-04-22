@@ -1,13 +1,13 @@
-#cat_list {background-color: #D4CBC3; color: #000000; visibility: hidden; width: 560px; padding: 10px;}
-#add_cat {background-color: #F69A98; position: absolute; top: 105px; visibility: hidden; width: 560px; color: #000000; padding: 10px;}
-#cat_desc {background-color: #C8AB65; position: absolute; top: 105px; visibility: hidden; width: 560px; color: #000000; padding: 10px;}
-#del_cat {background-color: #D4CBC3; position: absolute; top: 105px; color: #000000; visibility: hidden; width: 560px; padding: 10px;}
-#about {background-color: #C0C0C0; position: absolute; top: 105px; visibility: hidden; width: 560px; color: #000000; padding: 10px;}
+#cat_list {background-color: #D4CBC3; color: #000000; visibility: hidden; max-width: 560px; padding: 10px;}
+#add_cat {background-color: #F69A98; position: absolute; top: 105px; visibility: hidden; max-width: 560px; color: #000000; padding: 10px;}
+#cat_desc {background-color: #C8AB65; position: absolute; top: 105px; visibility: hidden; max-width: 560px; color: #000000; padding: 10px;}
+#del_cat {background-color: #D4CBC3; position: absolute; top: 105px; color: #000000; visibility: hidden; max-width: 560px; padding: 10px;}
+#about {background-color: #C0C0C0; position: absolute; top: 105px; visibility: hidden; max-width: 560px; color: #000000; padding: 10px;}
 
-#content_area {width: 580px;}
-header {background-color: #9FBF8C; width: 580px;border-bottom: 3px solid #787A40; margin-bottom: 5px; color: #787A40; text-align: center;}
+#content_area {max-width: 580px;}
+header {background-color: #9FBF8C; max-width: 580px;border-bottom: 3px solid #787A40; margin-bottom: 5px; color: #787A40; text-align: center;}
 header h1 {padding: 10px; margin: 0;}
-#menu {width: 580px;font-size: 16px;padding: 5px; font-weight: bold;}
+#menu {max-width: 580px;font-size: 16px;padding: 5px; font-weight: bold;}
 #listcategories {margin-top: 10px;}
 #catname {margin-left: 55px;}
 #catdesc {margin-left: 6px;}
